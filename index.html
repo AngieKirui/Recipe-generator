@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Generator</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Recipe Generator</h1>
+      <div class="input-container">
+        <label for="ingredient">Enter an ingredient:</label>
+        <input type="text" id="ingredient" placeholder="e.g. chicken, pasta" />
+        <label for="cuisine">Select a cuisine:</label>
+        <select id="cuisine">
+          <option value="Italian">Italian</option>
+          <option value="Mexican">Mexican</option>
+          <option value="Indian">Indian</option>
+          <option value="Chinese">Chinese</option>
+          <option value="American">American</option>
+        </select>
+        <button id="generate">Generate Recipe</button>
+      </div>
+      <div id="recipe" class="recipe-output"></div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

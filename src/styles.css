@@ -1,0 +1,77 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fdf0f6; /* Soft pink background */
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff; /* White background for the container */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #e91e63; /* Bright pink for the header */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: "Georgia", serif; /* Elegant font for the heading */
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #d5006d; /* Darker pink for labels */
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #e91e63; /* Pink border */
+  border-radius: 5px;
+  font-size: 1em; /* Increased font size for readability */
+  transition: border-color 0.3s; /* Smooth transition on focus */
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #d5006d; /* Darker pink on focus */
+  outline: none; /* Remove outline */
+}
+
+button {
+  background-color: #e91e63; /* Bright pink for buttons */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold; /* Bold text for button */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+  font-size: 1em; /* Increased font size for readability */
+}
+
+button:hover {
+  background-color: #d5006d; /* Darker pink on hover */
+}
+
+.recipe-output {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #e91e63; /* Pink border for output area */
+  border-radius: 5px;
+  background: #ffeef8; /* Light pink background for output */
+  font-family: "Georgia", serif; /* Elegant font for the output */
+  font-size: 1.1em; /* Increased font size for readability */
+}
